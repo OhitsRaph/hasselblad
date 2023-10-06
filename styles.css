@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    Padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.header {
+    color: white;
+    background-color: black;
+    padding: 14px 0;
+}
+
+.header .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    border: 1px solid white;
+}
+
+.header .btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.navbar {
+    color: white;
+    background-color: #262B2E;
+    padding: 20px 0;
+}
+
+.navbar .wrapper  {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .wrapper:hover a {
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+a:hover {
+    color: rgba(231, 231, 231, 0.37);
+}
+
+
+.product-name {
+    font-size: 13px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+
+
+.product-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.product-menu a{
+    font-size: 12px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.hero {
+    min-height: 900px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    background: url(./assets/kv-banner-pc.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 96px;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+}
+
+.detail {
+    color: white;
+    background: black;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.detail .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.detail .intro {
+    padding: 0 80px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: 'jost', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 400;
+    letter-spacing: .06em;
+}
+
+.detail .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    border: 1px solid white;
+    margin-top: 40px;
+}
+
+.detail .btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+.detail .technical {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.detail .technical-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.color {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.color .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 160px;
+}
+
+.color img {
+    display: block;
+    width: 80%;
+    margin: 0 auto 40px;
+}
+
+.bloc-image-text:first-of-type {
+    margin-bottom: 100px;
+}
+
+.video {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.storage {
+    background: #EEEDED;
+    padding: 100px 0;
+}
+
+.storage .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.storage .content {
+    width: 50%;
+}
+
+.storage img {
+    display: block;
+    width: 50%;
+    object-fit: contain;
+}
+
+.storage .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.storage .btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+.display {
+    height: 100vh;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(./assets/display.jpg) no-repeat 150% -20%;
+    background-size: 70%;
+}
+
+.display .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.display .content {
+    width: 50%;
+}
+
+.display .technical {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.display .technical-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.design {
+    background: white;
+    padding-top: 100px;
+}
+
+.design .wrapper {
+    max-width: 1280px;
+    margin: 0 auto 40px;
+    padding: 0 160px;
+}
+
+.design img {
+    display: block;
+    width: 100%;
+}
+
+.subfooter {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    padding: 14px 0;
+}
+
+.footer {
+    background: #EEEDED;
+    padding: 20px 0;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.footer .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.footer a {
+    color: #666;
+}
